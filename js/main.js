@@ -7,3 +7,5 @@ const colorePreferito = prompt('Inserisci il tuo colore preferito');
 // 4. generare una variabile "password" contenente la concatenazione delle variabili precedenti con 76 alla fine
 const password = (nome+cognome+colorePreferito+76);
 // 5. mostra a schermo la variabile pasword
+document.querySelector("h2").innerHTML='Ecco la tua nuova fantastica password!';
+document.querySelector("p").innerHTML=password;
